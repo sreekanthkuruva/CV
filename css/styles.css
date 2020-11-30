@@ -1,0 +1,177 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+/********************<div>Main</div>*******************/
+.top-container{
+    position:relative;
+    padding-top: 100px;
+    background-color: #bce6eb;
+
+}
+p{
+  font-size: 20px;
+}
+h1{
+  width:30%;
+  margin: 80px auto 0 auto;
+  display: inline-block;
+  font-family: 'Sacramento', cursive;
+  font-size: 80px;
+  color:#66BFBF;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  font-size: 2.5rem;
+  color:#66BFBF;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  padding-top:20px;
+}
+a{
+color: #11999E;
+margin: 0 5px 0 5px;
+text-decoration: none;
+}
+.pass{
+  padding-top: 30px;
+}
+.span{
+  text-decoration: underline;
+}
+.prog{
+  font-weight: normal;
+}
+/********************images*******************/
+.cloud {
+  position: absolute;
+  right: 290px;
+  top: 40px;
+}
+
+.cloud2{
+  position: absolute;
+  left: 290px;
+  top:280px;
+}
+.mountain{
+  top: 600px;
+}
+.skill{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 30px;
+
+}
+.chilli{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 30px;
+}
+/********************hover*******************/
+.cloud:hover {
+  transform: scale(1.5); /* (150% zoom)*/
+}
+.cloud2:hover{
+  transform: scale(1.5);
+}
+.pass:hover{
+  transform: scale(.8);
+}
+.skill:hover{
+  transform: scale(.8);
+}
+.chilli:hover{
+  transform: scale(.8);
+}
+.footer-link:hover{
+  color: #ff5722;
+}
+
+/********************<div>middile-container</div>*******************/
+/*.middile-container{
+background-color: #bce6eb;
+}*/
+hr{
+  border-style: dotted none none;
+  width: 10%;
+  border-width: 15px;
+  border-color: #ff5722;
+}
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.para{
+  clear: left;
+}
+.contact{
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+/*************bottom-container*************/
+.bottom-container{
+  background-color: #bce6eb;
+  padding:50px 0 20px;
+}
+/*******************************BUTTON***************/
+.btn{
+-moz-box-shadow:inset 0 1px 0 0 #f0f7fa;
+-webkit-box-shadow:inset 0 1px 0 0 #f0f7fa;
+box-shadow:inset 0 1px 0 0 #f0f7fa;
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2ec3f5), color-stop(1, #019ad2) );
+background:-moz-linear-gradient( center top, #2ec3f5 5%, #019ad2 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2ec3f5', endColorstr='#019ad2');
+background-color:#2ec3f5;
+-webkit-border-top-left-radius:6px;
+-moz-border-radius-topleft:6px;
+border-top-left-radius:6px;
+-webkit-border-top-right-radius:6px;
+-moz-border-radius-topright:6px;
+border-top-right-radius:6px;
+-webkit-border-bottom-right-radius:6px;
+-moz-border-radius-bottomright:6px;
+border-bottom-right-radius:6px;
+-webkit-border-bottom-left-radius:6px;
+-moz-border-radius-bottomleft:6px;
+border-bottom-left-radius:6px;
+text-indent:0;
+border:1px solid #057fd0;
+display:inline-block;
+color:#ffffff;
+font-family:Arial;
+font-size:15px;
+font-weight:bold;
+font-style:normal;
+height:50px;
+line-height:50px;
+width:140px;
+text-decoration:none;
+text-align:center;
+text-shadow:0 -1px 0 #5b6178;
+}
+.btn:hover {
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #2ec3f5) );
+background:-moz-linear-gradient( center top, #019ad2 5%, #2ec3f5 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#2ec3f5');
+background-color:#019ad2;
+}.classname:active {
+position:relative;
+top:1px;
+}
+
+.copyright{
+  color: #ff5722;
+  font-size: 0.90rem;
+  padding: 20px 0;
+}
